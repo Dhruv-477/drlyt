@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 742.400px;
+    width: 1536px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.D{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+#T{
+    font-size: 30px;
+}
+.no,.yes{
+    /* background-color: rgb(125, 58, 201); */
+    color: rgb(125, 58, 201);
+    border-color: rgb(125, 58, 201);
+    font-weight: 200;
+    border-radius: 20px;
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    cursor: pointer;
+}
+.yes{
+    left: 650px;
+    top: 170px;
+}
